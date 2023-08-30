@@ -1,6 +1,7 @@
 ---
 - hosts: all
-  become: false
+  become: true
+  become_user: tecio
   
   tasks:
     - name: Check packages to upgrade
