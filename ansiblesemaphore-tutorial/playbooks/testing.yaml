@@ -1,7 +1,7 @@
 ---
 - hosts: all
+  remote_user: tecio
   become: true
-  become_user: tecio
   
   tasks:
     - name: Check packages to upgrade
