@@ -1,7 +1,5 @@
 ---
 - hosts: all
-  become: no
-  remote_user: "tecio"
   tasks:
     - name: Check packages to upgrade
       dnf:
