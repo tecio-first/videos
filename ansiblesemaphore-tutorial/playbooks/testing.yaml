@@ -1,9 +1,5 @@
 ---
-- hosts: all
-  become: yes
-  become_user: 'tecio'
-  become_method: 'sudo'
-  
+- hosts: all  
   tasks:
     - name: Check packages to upgrade
       dnf:
