@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  become: false
+  become: no
   tasks:
     - name: Check packages to upgrade
       dnf:
